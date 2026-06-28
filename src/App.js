@@ -15,7 +15,7 @@ function App() {
 
   return (
     <div className="container">
-      <h2>Live Clock</h2>
+      <h2>Digital Live Clock</h2>
       <h1>{time.toLocaleTimeString()}</h1>
       <p>{time.toLocaleDateString()}</p>
     </div>
